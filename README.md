@@ -6,9 +6,15 @@ Busca de todos as informações dos alunos, inserção e exclusão no banco de d
 
 Usei o Postman para fazer as requisições.
 
-Para o professor:
+# Para o professor:
 
-Usei o MySql com o XAMPP e criei meu próprio banco de dados com os seguintes atributos:
+Usei o MySql com o XAMPP e criei meu próprio banco de dados:
+
+BD - alunos
+
+Table - info_alunos
+
+Atributos:
 
 ID - Auto incremental (int)
 
