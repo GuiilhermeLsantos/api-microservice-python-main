@@ -36,7 +36,7 @@ def get_registros():
     
 
 # Rota para cadastrar um novo registro
-@app.route('/api/cadastro', methods=['GET','POST'])
+@app.route('/api/cadastro', methods=['POST'])
 def cadastrar_registro():
     # Obtém os dados do registro a partir dos parâmetros da requisição
     nome = request.args.get('Nome')
