@@ -1,6 +1,6 @@
 import mysql.connector
 from flask import Flask, request, jsonify
-
+print("Teste")
 app = Flask(__name__)
 
 db_config = {
